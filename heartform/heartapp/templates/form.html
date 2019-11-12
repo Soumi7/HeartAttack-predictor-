@@ -1,0 +1,29 @@
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+        <title>Heart attack</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" href="{% static 'css/heart.css' %}">
+   <style>
+
+
+     body {background-image: url("https://aholdencirm.files.wordpress.com/2014/06/shutterstock_140225476.jpg");
+</style>
+</head>
+<h1> <center> <b> Heart Attack Prediction </center> </b> </h1>
+
+<body style="padding: 20px;">
+<font color="white">
+
+<center>
+{% crispy form form.helper %}
+</center>
+</font>
+
+</body>
+</html>

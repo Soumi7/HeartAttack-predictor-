@@ -1,0 +1,37 @@
+
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+        <title>Prediction Result</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" href="{% static 'css/heart.css' %}">
+   <style>
+
+
+     body {background-image: url("https://aholdencirm.files.wordpress.com/2014/06/shutterstock_140225476.jpg");
+</style>
+</head>
+<h1 style="font-family:Algerian;color:yellow;font-size:75px"> <center> <b> Heart Attack Predictor </center> </b> </h1>
+
+<body style="padding: 20px;">
+<font color="white">
+
+<center>
+{% crispy form form.helper %}
+</center>
+</font>
+<div align="center">
+
+    <marquee width='29%' bgcolor='white' direction='down' loop='10' scrollamount='50' behavior='slide'><h2 style="font-family: Times New Roman; color: red; font-size: 50px"><b>Unhealthy Heart !!!</b></h2></marquee><br>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS4tgfnIQ26LgX41tSKznmQNne-w9U00JaPLZDEAV0cgHltPfHe" style="width:50%; height: 50%">
+    <div align="center" style="font-family: comic sans; color: white; font-size: 40px">
+      <p><b>Alert! You have significant signs of heart attack.<br>We'd recommend you to get medical attention immediately!<br>Stay safe! Stay healthy!</b></p>
+    </div>
+ </div>
+</body>
+</html>
