@@ -1,6 +1,8 @@
 # HeartAttack-predictor
+
 <img src="https://github.com/Soumi7/HeartAttack-predictor-/blob/master/hearattach.png" height="500" alt="Screenshot">
 HeartAttack predictor using Django as backend
+
 
 A **web based application** with **python**. User inputs their **personal heath data** and the application predicts whether there is a possibilty of heart problem.
 
