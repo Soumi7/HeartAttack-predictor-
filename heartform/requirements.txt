@@ -50,7 +50,7 @@ padme==1.1.1
 pandas==0.22.0
 pexpect==4.2.1
 Pillow==5.1.0
-pipenv==2018.11.26
+pipenv==2022.1.8
 plainbox==0.25
 progressbar==2.3
 protobuf==3.0.0
