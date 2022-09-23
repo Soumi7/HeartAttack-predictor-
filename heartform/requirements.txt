@@ -53,7 +53,7 @@ Pillow==5.1.0
 pipenv==2018.11.26
 plainbox==0.25
 progressbar==2.3
-protobuf==3.0.0
+protobuf==3.18.3
 psycopg2==2.7.4
 pyasn1==0.4.2
 pycairo==1.16.2
