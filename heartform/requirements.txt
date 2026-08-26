@@ -40,7 +40,7 @@ Mako==1.0.7
 MarkupSafe==1.1.1
 matplotlib==2.1.1
 netifaces==0.10.4
-numexpr==2.6.4
+numexpr==2.8.5
 numpy==1.17.3
 oauth==1.0.1
 oauthlib==2.0.6
