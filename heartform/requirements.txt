@@ -43,7 +43,7 @@ netifaces==0.10.4
 numexpr==2.6.4
 numpy==1.17.3
 oauth==1.0.1
-oauthlib==2.0.6
+oauthlib==4.0.0
 olefile==0.45.1
 onboard==1.4.1
 padme==1.1.1
